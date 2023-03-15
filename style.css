@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital,wght@1,400;1,500;1,600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Varela&family=Varela+Round&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url('https://images.unsplash.com/photo-1517299321609-52687d1bc55a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: black;
+    /* background: url(CSS/christmas-travel_19.jpg); */
+    color: orange;
+    background-position: center center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+h1 {
+    font-weight: normal;
+    font-size: 60px;
+    margin: -150px 0 40px;
+}
+.countdown {
+    display: flex;
+    transform: scale(2);
+}
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+.time h2 {
+    font-weight: bold;
+    font-style: 36px;
+    line-height: 1;
+    margin: 0 0 5px;
+}
