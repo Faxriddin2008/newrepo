@@ -3,7 +3,7 @@ const days = document.getElementById('days');
     const minutes = document.getElementById('minutes');
     const seconds = document.getElementById('seconds');
     const currentYear = new Date().getFullYear();
-    const newYearTime = new Date(`March 21 ${currentYear} 00:00:00`);
+    const newYearTime = new Date(`January ${currentYear + 1} 00:00:00`);
     function updateCountdown() {
     const currentTime = new Date();
     const diff = newYearTime - currentTime;
